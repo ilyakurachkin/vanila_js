@@ -52,3 +52,49 @@ const student: StudentType = {
 
 console.log(student.address.city.title)
 
+
+
+type roomType = {
+    door: boolean,
+    glass: boolean,
+    doorHandle: boolean,
+    fridge: Array<fridgeType>
+    storeroom: storeroomType
+};
+type fridgeType = {
+    id: number,
+    title: string
+};
+type storeroomType = {
+    test: string
+}
+
+
+
+
+const room: roomType = {
+    door: true,
+    glass: true,
+    doorHandle: true,
+        fridge: [
+            {
+                id: 1,
+                title: 'Ilya'
+            }
+        ],
+    storeroom: {
+        test: 'text'
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
