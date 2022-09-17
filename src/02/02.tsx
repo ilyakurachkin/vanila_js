@@ -1,15 +1,15 @@
 export {}
 
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
     isActive: boolean
     address: AddressType
-    technologies: Array<TachType>
+    technologies: Array<TechType>
 }
 
-type TachType = {
+type TechType = {
     id: number
     title: string
 }
@@ -25,7 +25,7 @@ type CityType = {
 
 
 
-const student: StudentType = {
+export const student: StudentType = {
     id: 1,
     name: 'Ilya',
     age: 29,
@@ -47,11 +47,7 @@ const student: StudentType = {
         }
     ]
 };
-
-
-
-console.log(student.address.city.title)
-
+console.log(student);
 
 
 type roomType = {

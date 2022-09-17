@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {splitIntoWords} from "./01-Hello-tests/01";
+import './02/02';
+import './03/03';
 
-// const sentence = "Hello my friend!";
-// const result = splitIntoWords(sentence)
-// console.log(result[0] === 'hello')
-// console.log(result[1] === 'my')
-// console.log(result[2] === 'friends')
-//
+const sentence = "Hello my friend!";
+const result = splitIntoWords(sentence)
+console.log(result[0] === 'hello')
+console.log(result[1] === 'my')
+console.log(result[2] === 'friends')
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
