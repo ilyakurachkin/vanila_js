@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {splitIntoWords} from "./01-Hello-tests/01";
 import './02/02';
 import './03/03';
+import './04/04';
 
 const sentence = "Hello my friend!";
 const result = splitIntoWords(sentence)
